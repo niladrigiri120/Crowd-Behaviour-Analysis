@@ -1,0 +1,32 @@
+crowd_behavior_analysis/
+│
+├── data/
+│   └── videos/
+│       ├── cam1.avi
+│       ├── cam2.avi
+│       ├── cam3.avi
+|       ├── cam4.avi
+│
+├── preprocessing/
+│   ├── frame_extractor.py
+│   ├── optical_flow.py
+│
+├── models/
+│   ├── convlstm_autoencoder.py
+│   ├── train.py
+│
+├── inference/
+│   ├── anomaly_detector.py
+│   ├── stream_processor.py
+│
+├── dashboard/
+│   ├── app.py          # FastAPI / Flask
+│   ├── templates/
+│   └── static/
+│
+├── utils/
+│   ├── config.py
+│   └── visualization.py
+│
+├── requirements.txt
+└── README.md
